@@ -136,9 +136,7 @@ public class ETLPipeline {
                 if (line.trim().isEmpty()) {
                     rowSkipped++;
                     continue;
-                }
-
-                
+                }               
 
                 //Validate number of fields but first we keep empty fields by using -1 as the second argument
 
@@ -194,10 +192,17 @@ public class ETLPipeline {
                 bw.newLine();
 
                 rowsTransformed++;
+
+                
             }
-        } catch (IOException e) {
+        }
+         
+        catch (IOException e) {
             System.out.println("Error processing files: " + e.getMessage());
             return;
         }
+        
+        //Display PrintSummary to User
+        printSummary(rowsRead, rowsTransformed, rowSkipped, outputFile);
     }
 }
