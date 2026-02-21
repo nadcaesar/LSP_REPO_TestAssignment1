@@ -97,6 +97,8 @@ Generated a reflection comparing procedural vs object-oriented design and produc
 
 To verify correctness, I created a second folder:
 
+datab/
+
 This folder contained the same `products.csv` input file.
 
 I ran the pipeline twice:
