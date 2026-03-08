@@ -26,5 +26,5 @@ replay_pid*
 .vscode/settings.json
 .github/copilot-instructions.md
 README.md
-datab/products.csv
-datab/transformed_products.csv
+/bin/
+/datab/
