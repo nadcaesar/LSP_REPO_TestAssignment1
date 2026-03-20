@@ -1,30 +1,16 @@
-# Development Log — Question 2 (OO Design Evaluation)
- 
-## AI Tool Used: Claude by Anthropic
-**Platform:** claude.ai  
-**Model:** Claude Sonnet 4.6
- 
-## How AI Was Used
-Claude was used to help evaluate the design flaws in the OrderProcessor
-class and to redesign the system using CRC cards. The student identified
-design issues independently before Claude helped formalize the language
-and structure the written evaluation.
- 
-## What Was Asked and How It Helped
- 
-- Asked Claude to explain what a god class is and why it is problematic
-- Identified that OrderProcessor has poor encapsulation (public fields),
-  mixes data with behavior, and applies discount after printing receipt
-- Named six replacement classes: Order, PricingService, ReceiptPrinter,
-  OrderRepository, EmailService, ActivityLogger
-- Wrote CRC cards for each class and discussed why Order has no collaborators
- 
-## Complete Conversation Transcript
-All prompts and responses from the full study session are included below.
-Scroll to the top of the claude.ai conversation and paste the full transcript here.
- 
+# Development Log — Question 3
+
+## External Resources Used
+
+### AI Tool: Claude (Anthropic)
+
+This solution was completed with the assistance of Claude (claude.ai).
+The complete conversation transcript used to help produce this solution is included below as required.
+
+**Note:** The full conversation transcript from this study session should be pasted below this line.
+All prompts and responses must be included per the assignment requirement.
+
 ---
- 
 
 [mid-term.docx
 docx
