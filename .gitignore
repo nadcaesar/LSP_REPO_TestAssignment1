@@ -28,3 +28,5 @@ replay_pid*
 README.md
 /bin/
 /datab/
+.claude/settings.local.json
+.gitignore
